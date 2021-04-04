@@ -6,5 +6,5 @@ README.md
 README Version: 0001;  
 HTML Version: 0008;  
 CSS Version: 0001;  
-JavaScript Version: 0025;
+JavaScript Version: 0031;
 
