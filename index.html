@@ -4,7 +4,7 @@
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <meta name='viewport' content='width=device-width initial-scale=1.0'>
 <link rel='icon' href='assets/images/favicon.ico'>
-<meta name='description' content='Awaiting description'>
+<meta name='description' content='Sandbox site to test API aggregation'>
 <meta name='keywords' content=''>
 <meta name='author' content=': '>
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'/>
@@ -12,20 +12,116 @@
 <script src='assets/js/apisandbox.js'></script>
 <title>API Sandbox</title>
 </head>
-<body onload='showMenuComponent("");'>
+<body onload='showMenuComponent("HomePage");'>
 <div id='imgbground' class='bground Home-display Gallery-display'></div>
 <div id='imgbground-blur' class='bground-blur'></div>
-<!-- Start of Nav -->
+<!-- Start of Nav API Sandbox-->
 <nav >
 <div class='logoleft'>
 <img class='logoleft' src='assets/images/logo.png' alt='Navigation Logo'>
 </div>
-<a href='#Home-Top' </nav>
-<!-- End of Nav -->
+<a href='#Home-Top' <h1>Menu Here</h1>
+<div class='menuitem' style='width: 11.4285714285714%'>
+ <button class='menubar' onclick='writeToDocument("homepage")'>Home Page</button>
+</div>
+<div class='menuitem' style='width: 11.4285714285714%'>
+ <button class='menubar' onclick='writeToDocument("people")'>People</button>
+</div>
+<div class='menuitem' style='width: 11.4285714285714%'>
+ <button class='menubar' onclick='writeToDocument("planets")'>Planets</button>
+</div>
+<div class='menuitem' style='width: 11.4285714285714%'>
+ <button class='menubar' onclick='writeToDocument("species")'>Species</button>
+</div>
+<div class='menuitem' style='width: 11.4285714285714%'>
+ <button class='menubar' onclick='writeToDocument("starships")'>Starships</button>
+</div>
+<div class='menuitem' style='width: 11.4285714285714%'>
+ <button class='menubar' onclick='writeToDocument("vehicles")'>Vehicles</button>
+</div>
+<div class='menuitem' style='width: 11.4285714285714%'>
+ <button class='menubar' onclick='writeToDocument("films")'>Films</button>
+</div>
+<div class='logoright'>
+<img class='logoright' src='assets/images/skycamlogo_white.png'>
+</div>
+</nav>
+<!-- End of Nav API Sandbox-->
+
+<!--  Start of HomePage menu section-->
+<div style='display: none;' class='MenuComponent' id='HomePage'>
+<a id='HomePage-Top'></a>
+<header>
+<h1 class='MenuSectionTitle'>Data Return</h1>
+</header>
+<section>
+<div id="data"></div>
+</section>
+</div>
+<!--  End of HomePage menu section-->
+
+
+<!--  Start of People menu section-->
+<div style='display: none;' class='MenuComponent' id='People'>
+<a id='People-Top'></a>
+<header>
+</header>
+<section>
+</section>
+</div>
+<!--  End of People menu section-->
+
+
+<!--  Start of Planets menu section-->
+<div style='display: none;' class='MenuComponent' id='Planets'>
+<a id='Planets-Top'></a>
+<header>
+</header>
+<section>
+</section>
+</div>
+<!--  End of Planets menu section-->
+
+
+<!--  Start of Species menu section-->
+<div style='display: none;' class='MenuComponent' id='Species'>
+<a id='Species-Top'></a>
+<header>
+</header>
+</div>
+<!--  End of Species menu section-->
+
+
+<!--  Start of Starships menu section-->
+<div style='display: none;' class='MenuComponent' id='Starships'>
+<a id='Starships-Top'></a>
+<header>
+</header>
+</div>
+<!--  End of Starships menu section-->
+
+
+<!--  Start of Vehicles menu section-->
+<div style='display: none;' class='MenuComponent' id='Vehicles'>
+<a id='Vehicles-Top'></a>
+<header>
+</header>
+</div>
+<!--  End of Vehicles menu section-->
+
+
+<!--  Start of Films menu section-->
+<div style='display: none;' class='MenuComponent' id='Films'>
+<a id='Films-Top'></a>
+<header>
+</header>
+</div>
+<!--  End of Films menu section-->
+
 <footer>
 
 <p class='enquiry'>For Enquiries Please Email: Null</p>
 <p class='d-none d-lg-inline footer-sm'>Created by Stephen Clarke on behalf of  
-||&nbsp;Last update on 02/04/2021||&nbsp;<span class='footer-sm' id='HTMLSerNo'>0001</span>.<span class='footer-sm' id='CSSSerNo'></span><span  class='footer-sm' id='JSSerNo'></span></p></footer>
+||&nbsp;Last update on 04/04/2021||&nbsp;<span class='footer-sm' id='HTMLSerNo'>0008</span>.<span class='footer-sm' id='CSSSerNo'></span><span  class='footer-sm' id='JSSerNo'></span></p></footer>
 </body>
 </html>
